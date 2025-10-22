@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rose House</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background-color: #fff7f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #c2185b;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #f8bbd0;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #c2185b;
+        }
+
+        section {
+            padding: 40px 20px;
+        }
+
+        h2 {
+            color: #c2185b;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .flor {
+            background-color: white;
+            border: 1px solid #f0c1cf;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .flor:hover {
+            transform: scale(1.03);
+        }
+
+        .flor img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .precio {
+            font-size: 18px;
+            color: #c2185b;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .boton-whatsapp {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .boton-whatsapp:hover {
+            background-color: #1da851;
+        }
+
+        footer {
+            background-color: #c2185b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🌹 The Rose House 🌹</h1>
+        <p>Venta de Rosas Naturales y Artificiales</p>
+    </header>
+
+    <nav>
+        <a href="#naturales">Rosas Naturales</a>
+        <a href="#artificiales">Rosas Artificiales</a>
+    </nav>
+
+    <!-- Sección de rosas naturales -->
+    <section id="naturales">
+        <h2>Rosas Naturales</h2>
+        <div class="image">
+            <div class="flor">
+                <img src="img flor_rosada_parada.jpg01" alt="rosa_azul_artificial">
+                <h3>Rosa Roja</h3>
+                <p class="precio">$__</p>
+                <!-- BOTÓN WHATSAPP -->
+                <a class="boton-whatsapp" href="https://wa.me/NUMEROTELEFONO?text=Hola%20quiero%20comprar%20una%20Rosa%20Roja%20Natural%20de%20The%20Rose%20House" target="_blank">
+                    Comprar por WhatsApp
+                </a>
+            </div>
+
+            <div class="flor">
+                <img src="imagenes/rosa_blanca_natural.jpg" alt="Rosa Blanca Natural">
+                <h3>Rosa Blanca</h3>
+                <p class="precio">$__</p>
+                <a class="boton-whatsapp" href="https://wa.me/NUMEROTELEFONO?text=Hola%20quiero%20comprar%20una%20Rosa%20Blanca%20Natural%20de%20The%20Rose%20House" target="_blank">
+                    Comprar por WhatsApp
+                </a>
+            </div>
+
+            <div class="flor">
+                <img src="imagenes/rosa_rosada_natural.jpg" alt="Rosa Rosada Natural">
+                <h3>Rosa Rosada</h3>
+                <p class="precio">$__</p>
+                <a class="boton-whatsapp" href="https://wa.me/NUMEROTELEFONO?text=Hola%20quiero%20comprar%20una%20Rosa%20Rosada%20Natural%20de%20The%20Rose%20House" target="_blank">
+                    Comprar por WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de rosas artificiales -->
+    <section id="artificiales">
+        <h2>Rosas Artificiales</h2>
+        <div class="galeria">
+            <div class="flor">
+                <img src="img/rosa_rosada_acostada.jpeg" alt="rosa_rosada_acostada">
+                <h3>rosa rosada</h3>
+                <p class="precio">$1.00</p>
+                <a class="boton-whatsapp" href="https://wa.me/50376747422?text=Hola%20quiero%20comprar%20una%20Rosa%20Roja%20Artificial%20de%20The%20Rose%20House" target="_blank">
+                    Comprar por WhatsApp
+                </a>
+            </div>
+
+            <div class="flor">
+                <img src="imagenes/rosa_dorada_artificial.jpg" alt="Rosa Dorada Artificial">
+                <h3>Rosa Dorada</h3>
+                <p class="precio">$__</p>
+                <a class="boton-whatsapp" href="https://wa.me/NUMEROTELEFONO?text=Hola%20quiero%20comprar%20una%20Rosa%20Dorada%20Artificial%20de%20The%20Rose%20House" target="_blank">
+                    Comprar por WhatsApp
+                </a>
+            </div>
+
+            <div class="flor">
+                <img src="imagenes/rosa_azul_artificial.jpg" alt="Rosa Azul Artificial">
+                <h3>Rosa Azul Artificial</h3>
+                <p class="precio">$__</p>
+                <a class="boton-whatsapp" href="https://wa.me/NUMEROTELEFONO?text=Hola%20quiero%20comprar%20una%20Rosa%20Azul%20Artificial%20de%20The%20Rose%20House" target="_blank">
+                    Comprar por WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 The Rose House | Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
